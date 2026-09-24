@@ -39,3 +39,23 @@ if( ! defined( 'FLEXI_PATTERNS_MENU_SLUG' ) ) {
 if( ! defined( 'FLEXI_PATTERNS_BASENAME' ) ) {
       define( 'FLEXI_PATTERNS_BASENAME', plugin_basename( __FILE__ ) );
 }
+
+/**
+ * The core plugin class that is used to define internationalization,
+ * admin-specific hooks, and public-facing site hooks.
+ * 
+ * @since 1.0.0
+ * @package flexi-patterns
+ */
+require FLEXI_PATTERNS_PATH . '/includes/class-flexi-patterns.php';
+
+/**
+ * Begins execution of the plugin.
+ * 
+ * @since 1.0.0
+ * @package flexi-patterns
+ */
+function flexi_patterns_load() {
+      Flexi_Patterns_Handler::get_instance();
+}
+add_action( 'plugins_loaded', 'flexi_patterns_load', apply_filters( 'flexi_patterns_priority_action', 10 ) );
