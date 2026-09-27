@@ -7,19 +7,19 @@ if( ! defined( 'ABSPATH' ) ) exit;
  * Categories: flexi-patterns
  */
 ?>
-<!-- wp:group {"lock":{"move":false,"remove":false},"metadata":{"categories":["flexi-patterns"],"patternName":"flexi-patterns/call-to-action","name":"Call to action"},"align":"wide","className":"cta-block","style":{"border":{"width":"0.06rem","color":"#cfcabe","radius":"0.31rem"},"spacing":{"padding":{"top":"1.25rem","right":"1.25rem","bottom":"1.25rem","left":"1.25rem"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide cta-block has-border-color" style="border-color:#cfcabe;border-width:0.06rem;border-radius:0.31rem;padding-top:1.25rem;padding-right:1.25rem;padding-bottom:1.25rem;padding-left:1.25rem">
+<!-- wp:group {"lock":{"move":false,"remove":false},"metadata":{"categories":["flexi-patterns"],"patternName":"flexi-patterns/call-to-action","name":"Call to action"},"className":"cta-block","style":{"border":{"width":"0.06rem","color":"#cfcabe","radius":"0.31rem"},"spacing":{"padding":{"top":"1.25rem","right":"1.25rem","bottom":"1.25rem","left":"1.25rem"},"margin":{"bottom":"1.25rem","top":"1.25rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group cta-block has-border-color" style="border-color:#cfcabe;border-width:0.06rem;border-radius:0.31rem;margin-bottom:1.25rem;margin-top:1.25rem;padding-top:1.25rem;padding-right:1.25rem;padding-bottom:1.25rem;padding-left:1.25rem">
       <!-- wp:columns {"lock":{"move":false,"remove":false}} -->
       <div class="wp-block-columns">
             <!-- wp:column {"verticalAlignment":"center","width":"100%","layout":{"type":"default"}} -->
             <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:100%">
-                  <!-- wp:heading {"textAlign":"center"} -->
-                  <h2 class="wp-block-heading has-text-align-center">
+                  <!-- wp:heading {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"bottom":"1.25rem"}}}} -->
+                  <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:1.25rem">
                         <?php esc_html_e( 'Lorem ipsum content in-article callout header', 'flexi-patterns' ); ?>
                   </h2>
                   <!-- /wp:heading -->
-                  <!-- wp:paragraph {"align":"center","fontSize":"regular"} -->
-                  <p class="has-text-align-center has-regular-font-size">
+                  <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"bottom":"1.25rem"}}},"fontSize":"regular"} -->
+                  <p class="has-text-align-center has-regular-font-size" style="margin-bottom:1.25rem">
                         <?php esc_html_e( 'Lorem ipsum text could go here', 'flexi-patterns' ); ?>                  
                   </p>
                   <!-- /wp:paragraph -->
