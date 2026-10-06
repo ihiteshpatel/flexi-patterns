@@ -8,14 +8,14 @@ if( ! defined( 'ABSPATH' ) ) exit;
  * Categories: flexi-patterns
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["flexi-patterns"],"patternName":"flexi-patterns/two-columns-secondary","name":"Two columns secondary"},"align":"wide","className":"flexi-two-columns-pattern","style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10"}},"border":{"radius":"0.31rem"}},"backgroundColor":"black","textColor":"cyan-bluish-gray"} -->
-<div class="wp-block-group alignwide flexi-two-columns-pattern has-cyan-bluish-gray-color has-black-background-color has-text-color has-background" style="border-radius:0.31rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)">
+<!-- wp:group {"metadata":{"categories":["flexi-patterns"],"patternName":"flexi-patterns/two-columns-secondary","name":"Two columns secondary"},"className":"flexi-two-columns-pattern","style":{"spacing":{"padding":{"top":"1.25rem","bottom":"1.25rem","left":"1.25rem","right":"1.25rem"}},"border":{"radius":"0.31rem"}},"backgroundColor":"black","textColor":"cyan-bluish-gray"} -->
+<div class="wp-block-group flexi-two-columns-pattern has-cyan-bluish-gray-color has-black-background-color has-text-color has-background" style="border-radius:0.31rem;padding-top:1.25rem;padding-right:1.25rem;padding-bottom:1.25rem;padding-left:1.25rem">
       <!-- wp:columns -->
       <div class="wp-block-columns">
             <!-- wp:column -->
             <div class="wp-block-column">
-                  <!-- wp:heading {"textColor":"luminous-vivid-amber"} -->
-                  <h2 class="wp-block-heading has-luminous-vivid-amber-color has-text-color">
+                  <!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"1.25rem"}}},"textColor":"luminous-vivid-amber"} -->
+                  <h2 class="wp-block-heading has-luminous-vivid-amber-color has-text-color" style="margin-bottom:1.25rem">
                         <?php esc_html_e( 'Heading One', 'flexi-patterns' ); ?>
                   </h2>
                   <!-- /wp:heading -->
@@ -28,8 +28,8 @@ if( ! defined( 'ABSPATH' ) ) exit;
             <!-- /wp:column -->
             <!-- wp:column -->
             <div class="wp-block-column">
-                  <!-- wp:heading {"textColor":"luminous-vivid-amber"} -->
-                  <h2 class="wp-block-heading has-luminous-vivid-amber-color has-text-color">
+                  <!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"1.25rem"}}},"textColor":"luminous-vivid-amber"} -->
+                  <h2 class="wp-block-heading has-luminous-vivid-amber-color has-text-color" style="margin-bottom:1.25rem">
                         <?php esc_html_e( 'Heading Two', 'flexi-patterns' ); ?>
                   </h2>
                   <!-- /wp:heading -->
