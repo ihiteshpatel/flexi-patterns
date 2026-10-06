@@ -9,25 +9,25 @@ if( ! defined( 'ABSPATH' ) ) exit;
  */
 $image_url = esc_url( FLEXI_PATTERNS_URL . 'assets/images/placeholder-image.webp' );
 ?>
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"1.25rem","bottom":"1.25rem","left":"1.25rem","right":"1.25rem"}},"border":{"width":"0.06rem","color":"#cfcabe","radius":"0.31rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide has-border-color" style="border-color:#cfcabe;border-width:0.06rem;border-radius:0.31rem;padding-top:1.25rem;padding-right:1.25rem;padding-bottom:1.25rem;padding-left:1.25rem">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"1.25rem","bottom":"1.25rem","left":"1.25rem","right":"1.25rem"}},"border":{"width":"0.06rem","color":"#cfcabe","radius":"0.31rem"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#cfcabe;border-width:0.06rem;border-radius:0.31rem;padding-top:1.25rem;padding-right:1.25rem;padding-bottom:1.25rem;padding-left:1.25rem">
       <!-- wp:columns {"metadata":{"categories":["flexi-patterns"],"patternName":"flexi-patterns/image-text-alternator","name":"Image Text Aleternator"},"align":"wide"} -->
       <div class="wp-block-columns alignwide">
             <!-- wp:column {"style":{"spacing":{"blockGap":"1.25rem"}}} -->
             <div class="wp-block-column">
-                  <!-- wp:columns -->
-                  <div class="wp-block-columns">
+                  <!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"1.25rem"}}}} -->
+                  <div class="wp-block-columns" style="margin-bottom:1.25rem">
                         <!-- wp:column -->
                         <div class="wp-block-column">
                               <!-- wp:group {"layout":{"type":"constrained"}} -->
                               <div class="wp-block-group">
-                                    <!-- wp:heading -->
-                                    <h2 class="wp-block-heading">
+                                    <!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"1.25rem"}}}} -->
+                                    <h2 class="wp-block-heading" style="margin-bottom:1.25rem">
                                           <?php esc_html_e( 'Heading1', 'flexi-patterns' ); ?>
                                     </h2>
                                     <!-- /wp:heading -->
-                                    <!-- wp:paragraph -->
-                                    <p>
+                                    <!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"1.25rem"}}}} -->
+                                    <p style="margin-bottom:1.25rem">
                                           <?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'flexi-patterns' ); ?>
                                     </p>
                                     <!-- /wp:paragraph -->
@@ -72,13 +72,13 @@ $image_url = esc_url( FLEXI_PATTERNS_URL . 'assets/images/placeholder-image.webp
                         <div class="wp-block-column">
                               <!-- wp:group {"layout":{"type":"constrained"}} -->
                               <div class="wp-block-group">
-                                    <!-- wp:heading -->
-                                    <h2 class="wp-block-heading">
+                                    <!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"1.25rem"}}}} -->
+                                    <h2 class="wp-block-heading" style="margin-bottom:1.25rem">
                                           <?php esc_html_e( 'Heading1', 'flexi-patterns' ); ?>
                                     </h2>
                                     <!-- /wp:heading -->
-                                    <!-- wp:paragraph -->
-                                    <p>
+                                    <!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"1.25rem"}}}} -->
+                                    <p style="margin-bottom:1.25rem">
                                           <?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'flexi-patterns' ); ?>
                                     </p>
                                     <!-- /wp:paragraph -->
